@@ -1,0 +1,15 @@
+[package]
+name = "bootcamp_krmu"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule= "0xaba251ae1bac964977235d29596d10d891f802532b8a83ca8b058d5d83c5e0e4"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
